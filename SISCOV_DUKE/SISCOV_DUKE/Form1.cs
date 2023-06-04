@@ -8,80 +8,70 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SISCOV_DUKE
+namespace biblioteca_conexion
 {
     public partial class Form1 : Form
     {
+        biblioteca_conexion.Class1 datos = new biblioteca_conexion.Class1();
+
         public Form1()
         {
             InitializeComponent();
         }
 
-        
-        private void button1_Click(object sender, EventArgs e)
+        private void btnBuscar_Click(object sender, EventArgs e)
         {
-            txtOrCredito.Clear();
-            txtKM.Clear();
-            txtGalones.Clear();
-            txtPreGalon.Clear();
-            txtImporte.Clear();
-            
+           
+        }
+        private void traerimg()
+        {
+            var list = datos.cargarGrid();
+            dbgvehiculo.DataSource = list;
+            dbgvehiculo.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+
+        }
+        private void filtrar()
+        {
+            if (txtplaca.Text!="")
+            {
+                dbgvehiculo.DataSource= datos.filtrar(txtplaca.Text);
+            }
+            else
+            {
+                var list = datos.cargarGrid();
+                dbgvehiculo.DataSource = list;
+            }
             
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            traerimg();
+
 
         }
 
-        private void Calculo()
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            double precio_galon = Math.Round(double.Parse(txtImporte.Text) / double.Parse(txtGalones.Text),4);
-            txtPreGalon.Text = precio_galon.ToString();
             
         }
 
-        #region codigo que no sirve
-        private void label1_Click(object sender, EventArgs e)
+        private void btnregresar_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            FML_VEHICULO frm = new FML_VEHICULO();
+            frm.Show();
         }
 
-        private void label4_Click(object sender, EventArgs e)
-        {
 
+        private void btnfilter_Click(object sender, EventArgs e)
+        {
+            filtrar();
         }
 
-        private void label5_Click(object sender, EventArgs e)
+        private void txtplaca_TextChanged(object sender, EventArgs e)
         {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label9_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        #endregion
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            if (txtGalones.Text == "") return;
-            if (txtImporte.Text == "") return;
-            Calculo();
-
-        }
-
-        private void txtGalones_TextChanged(object sender, EventArgs e)
-        {
-            if (txtImporte.Text == "") return;
-            if (txtGalones.Text == "") return;
-            Calculo();
+            filtrar();
         }
     }
 }

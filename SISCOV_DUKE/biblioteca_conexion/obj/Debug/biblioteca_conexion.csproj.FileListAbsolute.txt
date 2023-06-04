@@ -1,0 +1,26 @@
+D:\proyectos ksoft\PROYECTO_EMPRESA_SISCOV_DUKE\SISCOV_DUKE\biblioteca_conexion\bin\Debug\biblioteca_conexion.dll
+D:\proyectos ksoft\PROYECTO_EMPRESA_SISCOV_DUKE\SISCOV_DUKE\biblioteca_conexion\bin\Debug\biblioteca_conexion.pdb
+D:\proyectos ksoft\PROYECTO_EMPRESA_SISCOV_DUKE\SISCOV_DUKE\biblioteca_conexion\bin\Debug\MySql.Data.dll
+D:\proyectos ksoft\PROYECTO_EMPRESA_SISCOV_DUKE\SISCOV_DUKE\biblioteca_conexion\obj\Debug\biblioteca_conexion.csproj.AssemblyReference.cache
+D:\proyectos ksoft\PROYECTO_EMPRESA_SISCOV_DUKE\SISCOV_DUKE\biblioteca_conexion\obj\Debug\biblioteca_conexion.csproj.CoreCompileInputs.cache
+D:\proyectos ksoft\PROYECTO_EMPRESA_SISCOV_DUKE\SISCOV_DUKE\biblioteca_conexion\obj\Debug\biblioteca_conexion.csproj.CopyComplete
+D:\proyectos ksoft\PROYECTO_EMPRESA_SISCOV_DUKE\SISCOV_DUKE\biblioteca_conexion\obj\Debug\biblioteca_conexion.dll
+D:\proyectos ksoft\PROYECTO_EMPRESA_SISCOV_DUKE\SISCOV_DUKE\biblioteca_conexion\obj\Debug\biblioteca_conexion.pdb
+C:\Users\Josefer\OneDrive\Escritorio\almacen\PROYECTO_EMPRESA_SISCOV_DUKE\SISCOV_DUKE\biblioteca_conexion\obj\Debug\biblioteca_conexion.csproj.AssemblyReference.cache
+C:\Users\Josefer\OneDrive\Escritorio\almacen\PROYECTO_EMPRESA_SISCOV_DUKE\SISCOV_DUKE\biblioteca_conexion\obj\Debug\biblioteca_conexion.csproj.CoreCompileInputs.cache
+C:\Users\Josefer\OneDrive\Escritorio\almacen\PROYECTO_EMPRESA_SISCOV_DUKE\SISCOV_DUKE\biblioteca_conexion\obj\Debug\biblioteca_conexion.dll
+C:\Users\Josefer\OneDrive\Escritorio\almacen\PROYECTO_EMPRESA_SISCOV_DUKE\SISCOV_DUKE\biblioteca_conexion\obj\Debug\biblioteca_conexion.pdb
+C:\Users\Josefer\OneDrive\Escritorio\almacen\PROYECTO_EMPRESA_SISCOV_DUKE\SISCOV_DUKE\biblioteca_conexion\bin\Debug\biblioteca_conexion.dll
+C:\Users\Josefer\OneDrive\Escritorio\almacen\PROYECTO_EMPRESA_SISCOV_DUKE\SISCOV_DUKE\biblioteca_conexion\bin\Debug\biblioteca_conexion.pdb
+C:\Users\Josefer\OneDrive\Escritorio\almacen\PROYECTO_EMPRESA_SISCOV_DUKE\SISCOV_DUKE\biblioteca_conexion\bin\Debug\MySql.Data.dll
+C:\Users\Josefer\OneDrive\Escritorio\almacen\PROYECTO_EMPRESA_SISCOV_DUKE\SISCOV_DUKE\biblioteca_conexion\bin\Debug\MySql.Data.xml
+C:\Users\Josefer\OneDrive\Escritorio\almacen\PROYECTO_EMPRESA_SISCOV_DUKE\SISCOV_DUKE\biblioteca_conexion\obj\Debug\biblioteca_conexion.csproj.CopyComplete
+D:\one drive\OneDrive - SENATI\Desktop\PROYECTO_EMPRESA_SISCOV_DUKE\SISCOV_DUKE\biblioteca_conexion\bin\Debug\biblioteca_conexion.dll
+D:\one drive\OneDrive - SENATI\Desktop\PROYECTO_EMPRESA_SISCOV_DUKE\SISCOV_DUKE\biblioteca_conexion\bin\Debug\biblioteca_conexion.pdb
+D:\one drive\OneDrive - SENATI\Desktop\PROYECTO_EMPRESA_SISCOV_DUKE\SISCOV_DUKE\biblioteca_conexion\bin\Debug\MySql.Data.dll
+D:\one drive\OneDrive - SENATI\Desktop\PROYECTO_EMPRESA_SISCOV_DUKE\SISCOV_DUKE\biblioteca_conexion\bin\Debug\MySql.Data.xml
+D:\one drive\OneDrive - SENATI\Desktop\PROYECTO_EMPRESA_SISCOV_DUKE\SISCOV_DUKE\biblioteca_conexion\obj\Debug\biblioteca_conexion.csproj.AssemblyReference.cache
+D:\one drive\OneDrive - SENATI\Desktop\PROYECTO_EMPRESA_SISCOV_DUKE\SISCOV_DUKE\biblioteca_conexion\obj\Debug\biblioteca_conexion.csproj.CoreCompileInputs.cache
+D:\one drive\OneDrive - SENATI\Desktop\PROYECTO_EMPRESA_SISCOV_DUKE\SISCOV_DUKE\biblioteca_conexion\obj\Debug\biblioteca_conexion.csproj.CopyComplete
+D:\one drive\OneDrive - SENATI\Desktop\PROYECTO_EMPRESA_SISCOV_DUKE\SISCOV_DUKE\biblioteca_conexion\obj\Debug\biblioteca_conexion.dll
+D:\one drive\OneDrive - SENATI\Desktop\PROYECTO_EMPRESA_SISCOV_DUKE\SISCOV_DUKE\biblioteca_conexion\obj\Debug\biblioteca_conexion.pdb

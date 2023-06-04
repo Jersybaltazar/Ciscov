@@ -1,4 +1,5 @@
-﻿using System;
+﻿using biblioteca_conexion;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -19,4 +20,5 @@ namespace SISCOV_DUKE
             Application.Run(new FML_INICIO());
         }
     }
+        
 }

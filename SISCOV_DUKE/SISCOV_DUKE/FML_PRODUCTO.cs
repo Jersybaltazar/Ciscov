@@ -17,9 +17,42 @@ namespace SISCOV_DUKE
             InitializeComponent();
         }
 
+        biblioteca_conexion.Consulta datos = new biblioteca_conexion.Consulta();
+
+        private void FML_PRODUCTO_Load(object sender, EventArgs e)
+        {
+           
+        }
+
         private void button2_Click(object sender, EventArgs e)
         {
+            if(txtCodProducto.Text == "" && txtProducto.Text == "" && txtStock.Text == "")
+            {
+                MessageBox.Show("Falta datos");
+            }
+            else
+            {
+                datos.Registrarproducto(txtProducto.Text, txtStock.Text, txtCodProducto.Text);
+                MessageBox.Show("Se guardo exitosamente");
+            }
+            
+        }
 
+        private void cbNumfactura_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

@@ -42,14 +42,30 @@ namespace SISCOV_DUKE
             if (txtUsuario.Text == "ADMIN" && txtContraseña.Text == "2023")
             {
                 MessageBox.Show("Inicio sesión exitoso","VALIDACIÓN DE DATOS");
-                Form1 form_principal = new Form1(); // instancia el nuevo formulario
-                form_principal.Show(); // muestra el nuevo formulario
-                //this.Close(); // cierra el formulario actual (Form1)
+                MDIParent1 FRM = new MDIParent1();
+                
+                //FRM.Show();
+                //this.Hide(); // instancia el nuevo formulario
+                             // muestra el nuevo formulario
+                             //this.Close(); // cierra el formulario actual (Form1)
+
+                var mdiParent = new MDIParent1();
+                mdiParent.FormClosed += MdiParent_FormClosed; // Agregar un controlador de eventos para el cierre del formulario del padre MDI
+                mdiParent.Show();
+                this.Hide();
+
+
             }
             else
             {
                 MessageBox.Show("Datos incorrectos","VALIDACIÓN DE DATOS");
             }
+        }
+
+        private void MdiParent_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            // Cerrar el formulario de inicio de sesión antes de cerrar el formulario del padre MDI
+            this.Close();
         }
     }
 }
